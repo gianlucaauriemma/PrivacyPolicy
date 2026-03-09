@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - CashIt!</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fcfcfc;
+        }
+        h1, h2 {
+            color: #1a1a1a;
+        }
+        h1 {
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 10px;
+            margin-bottom: 30px;
+        }
+        h2 {
+            margin-top: 30px;
+            font-size: 1.5em;
+        }
+        p {
+            margin-bottom: 15px;
+        }
+        ul {
+            margin-bottom: 20px;
+        }
+        a {
+            color: #007aff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .last-updated {
+            font-style: italic;
+            color: #666;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Privacy Policy</h1>
+    <p class="last-updated">Last updated: March 09, 2026</p>
+
+    <p>Thank you for choosing to be part of our community at <strong>CashIt!</strong> ("we", "us", or "our"). We are committed to protecting your personal information and your right to privacy. If you have any questions or concerns about this privacy notice or our practices with regard to your personal information, please contact us.</p>
+
+    <p>This privacy policy applies to all information collected through our mobile application, <strong>CashIt!</strong>, and/or any related services, sales, marketing, or events (we refer to them collectively in this privacy policy as the "Services").</p>
+
+    <h2>1. What Information Do We Collect?</h2>
+    <p><strong>Personal Information You Disclose to Us</strong><br>
+    We collect personal information that you voluntarily provide to us when you register on the App, express an interest in obtaining information about us or our products and Services, when you participate in activities on the App, or otherwise when you contact us.</p>
+
+    <p><strong>Automatically Collected Information</strong><br>
+    Some information — such as your Internet Protocol (IP) address and/or browser and device characteristics — is collected automatically when you visit our App. This information is primarily needed to maintain the security and operation of our App, and for our internal analytics and reporting purposes.</p>
+
+    <p><strong>Local Data Storage</strong><br>
+    CashIt! is designed with privacy in mind. Most of your financial data (such as transactions, categories, and savings goals) is stored locally on your device or synced via your personal Apple iCloud account. We do not transmit or store your personal financial data on our own servers.</p>
+
+    <h2>2. How Do We Use Your Information?</h2>
+    <p>We use personal information collected via our App for a variety of business purposes described below. We process your personal information for these purposes in reliance on our legitimate business interests, in order to enter into or perform a contract with you, with your consent, and/or for compliance with our legal obligations.</p>
+    <ul>
+        <li>To facilitate account creation and logon process.</li>
+        <li>To provide and manage the Services you requested.</li>
+        <li>To respond to user inquiries/offer support to users.</li>
+        <li>To send administrative information to you.</li>
+    </ul>
+
+    <h2>3. Will Your Information Be Shared with Anyone?</h2>
+    <p>We only share information with your consent, to comply with laws, to provide you with services, to protect your rights, or to fulfill business obligations. Specifically, we may need to process your data or share your personal information in the following situations:</p>
+    <ul>
+        <li><strong>Business Transfers:</strong> We may share or transfer your information in connection with, or during negotiations of, any merger, sale of company assets, financing, or acquisition of all or a portion of our business to another company.</li>
+        <li><strong>Third-Party Service Providers:</strong> We may share your data with third-party vendors, service providers, contractors, or agents who perform services for us or on our behalf and require access to such information to do that work (e.g., AI models used for the AI Assistant feature, if applicable and cloud-processed).</li>
+        <li><strong>Apple Services:</strong> CashIt! integrates with Apple services like iCloud and Sign in with Apple. These services collect and use your data according to Apple's Privacy Policy.</li>
+    </ul>
+
+    <h2>4. How Long Do We Keep Your Information?</h2>
+    <p>We keep your information for as long as necessary to fulfill the purposes outlined in this privacy notice unless otherwise required by law. Since core financial data is stored locally on your device or via your personal iCloud, you retain control over how long this data is kept.</p>
+
+    <h2>5. How Do We Keep Your Information Safe?</h2>
+    <p>We have implemented appropriate technical and organizational security measures designed to protect the security of any personal information we process. However, despite our safeguards and efforts to secure your information, no electronic transmission over the Internet or information storage technology can be guaranteed to be 100% secure.</p>
+
+    <h2>6. Your Privacy Rights</h2>
+    <p>In some regions, such as the European Economic Area (EEA) and United Kingdom (UK), you have rights that allow you greater access to and control over your personal information. You may review, change, or terminate your account at any time.</p>
+
+    <h2>7. Use of Artificial Intelligence (AI)</h2>
+    <p>CashIt! includes features powered by Artificial Intelligence (AI Assistant). When you interact with the AI Assistant, no data leaves your device to train AI</p>
+
+    <h2>8. Changes to This Privacy Policy</h2>
+    <p>We may update this privacy policy from time to time. The updated version will be indicated by an updated "Last updated" date and the updated version will be effective as soon as it is accessible. We encourage you to review this privacy policy frequently to be informed of how we are protecting your information.</p>
+
+    <h2>9. Contact Us</h2>
+    <p>If you have questions or comments about this notice, you may email us at:</p>
+    <p><strong>gianluca.auriemma4@gmail.com</strong></p>
+
+</body>
+</html>
