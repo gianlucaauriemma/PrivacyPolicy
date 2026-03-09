@@ -1,1 +1,1 @@
-# CashItPrivacyPolicy
+# PrivacyPolicy
