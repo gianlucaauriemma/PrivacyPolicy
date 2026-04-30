@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Disposable Sandbox</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #2c3e50;
+            max-width: 850px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            background-color: #f4f7f6;
+        }
+        .policy-container {
+            background: #ffffff;
+            padding: 50px;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+        }
+        h1 { color: #1a202c; font-size: 2em; margin-bottom: 10px; }
+        h2 { color: #2d3748; margin-top: 35px; border-left: 4px solid #4a5568; padding-left: 15px; }
+        p, li { color: #4a5568; margin-bottom: 15px; }
+        .update-date { color: #718096; font-style: italic; margin-bottom: 30px; }
+        .highlight-box {
+            background: #edf2f7;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 25px 0;
+        }
+        .contact-info {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e2e8f0;
+        }
+        a { color: #3182ce; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+
+<div class="policy-container">
+    <h1>Privacy Policy</h1>
+    <p class="update-date">Last Updated: April 30, 2026</p>
+
+    <p>This Privacy Policy explains how <strong>Disposable Sandbox</strong> (the "App") manages data. As a tool designed for developers and researchers to handle sensitive or untested code, we prioritize local execution and total data isolation.</p>
+
+    <div class="highlight-box">
+        <strong>Our Privacy Promise:</strong> Your files never leave your computer. We do not use external servers to process, run, or analyze the data you drop into the App.
+    </div>
+
+    <h2>1. Local Virtualization & Data Isolation</h2>
+    <p>The App functions by creating a lightweight Linux Virtual Machine (VM) directly on your hardware. 
+    <ul>
+        <li><strong>Local Processing:</strong> All virtualization occurs locally using the system's hypervisor. No data is transmitted to an external cloud or server for execution.</li>
+        <li><strong>Network Isolation:</strong> By default, the isolated VM is configured with <strong>no internet access</strong>. This prevents scripts or files running within the sandbox from communicating with external servers or "calling home."</li>
+    </ul>
+
+    <h2>2. File Handling and Caching</h2>
+    <p>When you drag and drop a file or script into the App:</p>
+    <ul>
+        <li><strong>Temporary Caching:</strong> The file is temporarily cached on your local storage to allow the VM to mount and execute it.</li>
+        <li><strong>Session Destruction:</strong> Once the VM window is closed, the isolated environment and its temporary cache are destroyed. No persistent record of the file's content is maintained by the App.</li>
+    </ul>
+
+    <h2>3. Telemetry and Analytics</h2>
+    <p>We do not use proprietary analytics suites or third-party tracking frameworks. We rely solely on <strong>Apple’s default telemetry</strong> services (if enabled by the user in macOS settings). This provides us with anonymized crash reports and basic usage statistics to help improve app stability. This data does not contain your files, scripts, or personally identifiable information.</p>
+
+    <h2>4. Third-Party Services</h2>
+    <p>The App does not integrate with any third-party APIs, advertising networks, or social media platforms. Your workflow remains private and self-contained.</p>
+
+    <h2>5. Security</h2>
+    <p>Because the App runs entirely locally, the security of your data depends on your physical device security. We recommend following standard security practices for your macOS environment.</p>
+
+    <h2>6. Changes to This Policy</h2>
+    <p>We may update this policy to reflect changes in our practices or for other operational, legal, or regulatory reasons. We encourage you to review this policy whenever you update the App.</p>
+
+    <div class="contact-info">
+        <h2>Contact Us</h2>
+        <p>If you have questions about this Privacy Policy or the technical isolation of the App, please reach out to:</p>
+        <p><strong>Email:</strong> <a href="mailto:gianluca.auriemma4@gmail.com">gianluca.auriemma4@gmail.com</a></p>
+    </div>
+</div>
+
+</body>
+</html>
