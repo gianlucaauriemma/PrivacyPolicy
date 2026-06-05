@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — Pastport</title>
+  <style>
+    :root {
+      --paper:    #f0e9d8;
+      --parchment:#e8dcc6;
+      --sepia:    #7b5e3a;
+      --sepia-mid:#a0845a;
+      --ink:      #2e1f0e;
+      --muted:    #6b5540;
+      --border:   #c9b49a;
+      --white:    #ffffff;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 17px;
+      line-height: 1.75;
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    header {
+      background: var(--parchment);
+      border-bottom: 2px solid var(--border);
+      padding: 48px 24px 36px;
+      text-align: center;
+    }
+
+    .logo-mark {
+      display: inline-block;
+      width: 56px;
+      height: 56px;
+      border: 2.5px solid var(--sepia);
+      border-radius: 50%;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 16px;
+    }
+
+    .logo-mark svg {
+      width: 28px;
+      height: 28px;
+      fill: var(--sepia);
+    }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: normal;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--sepia);
+      margin-bottom: 6px;
+    }
+
+    header p {
+      font-size: 0.9rem;
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    /* ── Layout ── */
+    main {
+      max-width: 740px;
+      margin: 0 auto;
+      padding: 56px 24px 80px;
+    }
+
+    /* ── Sections ── */
+    section {
+      margin-bottom: 48px;
+    }
+
+    h2 {
+      font-size: 1.1rem;
+      font-weight: bold;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--sepia);
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 10px;
+      margin-bottom: 18px;
+    }
+
+    p {
+      margin-bottom: 14px;
+      color: #3a2a18;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 14px;
+    }
+
+    ul li {
+      padding: 6px 0 6px 24px;
+      position: relative;
+      color: #3a2a18;
+    }
+
+    ul li::before {
+      content: "—";
+      position: absolute;
+      left: 0;
+      color: var(--sepia-mid);
+    }
+
+    /* ── Highlight box ── */
+    .highlight {
+      background: var(--parchment);
+      border-left: 3px solid var(--sepia);
+      border-radius: 0 6px 6px 0;
+      padding: 18px 22px;
+      margin: 22px 0;
+      font-style: italic;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    /* ── Table ── */
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+      margin: 18px 0 24px;
+    }
+
+    .data-table th {
+      background: var(--parchment);
+      color: var(--sepia);
+      font-weight: bold;
+      text-align: left;
+      padding: 10px 14px;
+      border: 1px solid var(--border);
+      font-size: 0.78rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+    }
+
+    .data-table td {
+      padding: 10px 14px;
+      border: 1px solid var(--border);
+      vertical-align: top;
+      color: #3a2a18;
+    }
+
+    .data-table tr:nth-child(even) td {
+      background: rgba(201,180,154,0.12);
+    }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center;
+      padding: 32px 24px;
+      border-top: 1px solid var(--border);
+      font-size: 0.82rem;
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    footer a {
+      color: var(--sepia);
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    /* ── Last updated chip ── */
+    .meta {
+      display: inline-block;
+      background: var(--parchment);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 4px 12px;
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-bottom: 36px;
+      font-style: italic;
+    }
+
+    a { color: var(--sepia); }
+    a:hover { text-decoration: underline; }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.5rem; }
+      main { padding: 36px 18px 60px; }
+      .data-table { font-size: 0.82rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo-mark" aria-hidden="true">
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/>
+    </svg>
+  </div>
+  <h1>Pastport</h1>
+  <p>Privacy Policy</p>
+</header>
+
+<main>
+
+  <p class="meta">Last updated: June 2026</p>
+
+  <div class="highlight">
+    Pastport is designed with privacy in mind. The app does not require an account, does not sell your data, and does not share personal information with third parties for advertising purposes.
+  </div>
+
+  <!-- 1 -->
+  <section>
+    <h2>1. Who We Are</h2>
+    <p>Pastport is an iOS application that lets you explore Italian landmarks on a map, read their stories, and collect digital postcards when you visit them in person. The app is developed and maintained independently.</p>
+    <p>For any privacy-related questions, contact us at: <a href="mailto:support@yourwebsite.com">support@yourwebsite.com</a></p>
+  </section>
+
+  <!-- 2 -->
+  <section>
+    <h2>2. Data We Collect</h2>
+    <p>Pastport collects the minimum data necessary to provide its core features.</p>
+
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>Data Type</th>
+          <th>Why We Use It</th>
+          <th>Where It Is Stored</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Precise Location</strong></td>
+          <td>To show nearby monuments on the map and detect when you are within range of a landmark so you can unlock its postcard.</td>
+          <td>Processed on-device only. Never transmitted to our servers.</td>
+        </tr>
+        <tr>
+          <td><strong>Postcards Collected</strong></td>
+          <td>To maintain your personal collection across app sessions.</td>
+          <td>Stored locally on your device using Apple SwiftData.</td>
+        </tr>
+        <tr>
+          <td><strong>Badges Earned</strong></td>
+          <td>To track your progress milestones.</td>
+          <td>Stored locally on your device.</td>
+        </tr>
+        <tr>
+          <td><strong>Liked Curiosities</strong></td>
+          <td>To remember which landmark stories you have saved.</td>
+          <td>Stored locally on your device.</td>
+        </tr>
+        <tr>
+          <td><strong>Saved Memories (Photos)</strong></td>
+          <td>To let you attach a personal photo to a landmark visit.</td>
+          <td>Stored locally on your device.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>We do <strong>not</strong> collect: your name, email address, phone number, contacts, health data, financial data, search history, or browsing history.</p>
+  </section>
+
+  <!-- 3 -->
+  <section>
+    <h2>3. Location Data</h2>
+    <p>Pastport requests access to your location while the app is in use (<em>When In Use</em> authorisation). Location is used exclusively to:</p>
+    <ul>
+      <li>Display your position on the in-app map relative to nearby landmarks.</li>
+      <li>Calculate your distance from a monument to determine whether you can unlock a postcard.</li>
+      <li>Show a notification when you are near a monument you have not yet visited.</li>
+    </ul>
+    <p>Your location is processed entirely on-device and is never stored persistently or transmitted to external servers. You can revoke location access at any time in <strong>Settings → Privacy & Security → Location Services → Pastport</strong>.</p>
+  </section>
+
+  <!-- 4 -->
+  <section>
+    <h2>4. Camera</h2>
+    <p>Pastport requests camera access only when you choose to save a photo memory at a landmark. Photos are stored locally on your device and are not uploaded or shared. You can revoke camera access at any time in <strong>Settings → Privacy & Security → Camera → Pastport</strong>.</p>
+  </section>
+
+  <!-- 5 -->
+  <section>
+    <h2>5. Notifications</h2>
+    <p>Pastport may send local notifications to let you know when you are near an unvisited landmark. These notifications are generated entirely on your device — no data is sent to a push notification server for this purpose. You can disable notifications at any time in <strong>Settings → Notifications → Pastport</strong>.</p>
+  </section>
+
+  <!-- 6 -->
+  <section>
+    <h2>6. Third-Party Services</h2>
+    <p>Pastport may use <strong>Supabase</strong> as a backend service for certain optional features. Supabase is an open-source platform hosted on infrastructure provided by Amazon Web Services. If Supabase is active, minimal anonymous usage data may be transmitted over a secure HTTPS connection. No personally identifiable information is sent.</p>
+    <p>Supabase's privacy policy: <a href="https://supabase.com/privacy" target="_blank" rel="noopener">https://supabase.com/privacy</a></p>
+    <p>Pastport also uses Apple Maps (MapKit) for the in-app map. Apple's privacy policy governs any data processed by MapKit: <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">https://www.apple.com/legal/privacy/</a></p>
+    <p>Other than the services listed above, no analytics SDKs, advertising SDKs, or data brokers are integrated in this version of the app.</p>
+  </section>
+
+  <!-- 7 -->
+  <section>
+    <h2>7. Data Sharing</h2>
+    <p>We do not sell, rent, or share your personal data with third parties. We do not use your data for advertising purposes. We do not share data with data brokers.</p>
+    <p>The only circumstances in which data could be disclosed are:</p>
+    <ul>
+      <li>If required by law, court order, or governmental authority.</li>
+      <li>To protect the rights, property, or safety of users or the public.</li>
+    </ul>
+  </section>
+
+  <!-- 8 -->
+  <section>
+    <h2>8. Data Retention & Deletion</h2>
+    <p>All data generated by Pastport (postcards, badges, memories, likes) is stored locally on your device. It is retained until you delete the app or clear the app's data via iOS Settings.</p>
+    <p>To delete all Pastport data, simply delete the app from your device. No data remains on our servers because no personal data is ever transmitted.</p>
+  </section>
+
+  <!-- 9 -->
+  <section>
+    <h2>9. Children's Privacy</h2>
+    <p>Pastport is rated 4+ and is suitable for all ages. The app does not knowingly collect any personal information from children. Because no account is required and no personal data is transmitted, the app is safe for use by children under parental supervision.</p>
+  </section>
+
+  <!-- 10 -->
+  <section>
+    <h2>10. Security</h2>
+    <p>All network communication (where applicable) uses HTTPS/TLS encryption. Data stored on your device is protected by iOS's built-in security model, including hardware encryption where enabled on your device.</p>
+  </section>
+
+  <!-- 11 -->
+  <section>
+    <h2>11. Your Rights</h2>
+    <p>Because Pastport does not collect or store personal data on external servers, most data rights (access, rectification, erasure) are exercised directly on your device by managing or deleting the app.</p>
+    <p>If you have specific questions about your data rights under GDPR, CCPA, or other applicable laws, please contact us at <a href="mailto:support@yourwebsite.com">support@yourwebsite.com</a> and we will respond within 30 days.</p>
+  </section>
+
+  <!-- 12 -->
+  <section>
+    <h2>12. Changes to This Policy</h2>
+    <p>We may update this Privacy Policy from time to time. When we do, we will update the "Last updated" date at the top of this page. Continued use of the app after changes are posted constitutes acceptance of the revised policy. We encourage you to review this page periodically.</p>
+  </section>
+
+  <!-- 13 -->
+  <section>
+    <h2>13. Contact</h2>
+    <p>For any questions, requests, or concerns regarding this Privacy Policy, please contact:</p>
+    <ul>
+      <li>Email: <a href="mailto:support@yourwebsite.com">support@yourwebsite.com</a></li>
+      <li>Website: <a href="https://yourwebsite.com/pastport" target="_blank" rel="noopener">yourwebsite.com/pastport</a></li>
+    </ul>
+  </section>
+
+</main>
+
+<footer>
+  <p>© 2026 Pastport &nbsp;·&nbsp; <a href="mailto:support@yourwebsite.com">Contact</a></p>
+  <p style="margin-top:8px;">This policy applies to the Pastport iOS application.</p>
+</footer>
+
+</body>
+</html>
